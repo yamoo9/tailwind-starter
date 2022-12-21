@@ -14,7 +14,7 @@ Tailwind CSS 유틸리티 퍼스트 프레임워크로 시작하는 프로젝트
 
 쾌적한 개발 환경 구성
 
-- [ ] Live Server [🔗](https://www.npmjs.com/package/live-server)
+- [x] Live Server [🔗](https://www.npmjs.com/package/live-server)
 - [ ] HTMLHint [🔗](https://www.npmjs.com/package/htmlhint)
 - [ ] Tailwind CSS [🔗](https://www.npmjs.com/package/tailwindcss)
 - [ ] Post CSS [🔗](https://www.npmjs.com/package/postcss)
