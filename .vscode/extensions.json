@@ -1,0 +1,61 @@
+{
+  "recommendations": [
+    /* HTML --------------------------------------------------------------------- */
+
+    "HTMLHint.vscode-htmlhint",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+
+    /* PostCSS ------------------------------------------------------------------ */
+
+    "mrmlnc.vscode-postcss-sorting",
+    "csstools.postcss",
+
+    /* Tailwind CSS ------------------------------------------------------------- */
+
+    "austenc.tailwind-docs",
+    "bourhaouta.tailwindshades",
+    "bradlc.vscode-tailwindcss",
+
+    /* JavaScript --------------------------------------------------------------- */
+
+    "NuclleaR.vscode-extension-auto-import",
+    "meganrogge.template-string-converter",
+    "Tobermory.es6-string-html",
+
+    /* Node.js ------------------------------------------------------------------ */
+
+    "chrisbibby.hide-node-modules",
+    "jasonnutter.search-node-modules",
+
+    /* Linter, Formatter -------------------------------------------------------- */
+
+    "stylelint.vscode-stylelint",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "rebornix.toggle",
+
+    /* SVG ---------------------------------------------------------------------- */
+
+    "cssho.vscode-svgviewer",
+    "smatDnepr.svg-sprite-viewer-generator",
+
+    /* Path --------------------------------------------------------------------- */
+
+    "christian-kohler.npm-intellisense",
+    "christian-kohler.path-intellisense",
+
+    /* Git ---------------------------------------------------------------------- */
+
+    "donjayamanne.githistory",
+
+    /* Markdown ----------------------------------------------------------------- */
+
+    "shd101wyy.markdown-preview-enhanced",
+    "jebbs.markdown-extended",
+
+    /* REST API Client ---------------------------------------------------------- */
+
+    "rangav.vscode-thunder-client"
+  ]
+}
