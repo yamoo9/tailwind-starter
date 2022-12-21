@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "tw-starter",
+  "version": "0.0.0",
+  "description": "Tailwind CSS 유틸리티 퍼스트 프레임워크로 시작하는 프로젝트 스타터",
+  "author": {
+    "name": "야무(yamoo9)",
+    "email": "yamoo9@naver.com",
+    "url": "https://euid.dev"
+  },
+  "scripts": {
+    "start": "npm run dev -- --open",
+    "dev": "live-server ./ --host=localhost --port=3000"
+  },
+  "devDependencies": {
+    "live-server": "1.2.2"
+  },
+  "engines": {
+    "node": "^16.0.0",
+    "vscode": "^1.7.0"
+  }
+}
