@@ -94,5 +94,4 @@
   "stylelint.enable": true,
   "stylelint.validate": ["css"],
   "stylelint.configFile": "client/.stylelintrc.json"
-  
 }
