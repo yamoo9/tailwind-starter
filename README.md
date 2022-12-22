@@ -19,9 +19,9 @@ Tailwind CSS 유틸리티 퍼스트 프레임워크로 시작하는 프로젝트
 - [x] Tailwind CSS [🔗](https://www.npmjs.com/package/tailwindcss)
 - [x] PostCSS [🔗](https://www.npmjs.com/package/postcss)
 - [x] PostCSS Preset Env [🔗](https://www.npmjs.com/package/postcss-preset-env)
-- [x] Stylelint [🔗](https://www.npmjs.com/package/stylelint)
-- [ ] Prettier [🔗](https://www.npmjs.com/package/prettier)
 - [ ] ESLint [🔗](https://www.npmjs.com/package/eslint)
+- [x] Prettier [🔗](https://www.npmjs.com/package/prettier)
+- [x] Stylelint [🔗](https://www.npmjs.com/package/stylelint)
 
 ## Production
 

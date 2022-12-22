@@ -1,5 +1,5 @@
 @layer base {
-  a:where([href])  {
+  a:where([href]) {
     @media print {
       &::after {
         content: ' (' attr(href) ')';
