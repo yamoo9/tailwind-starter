@@ -6,9 +6,9 @@ Tailwind CSS 유틸리티 퍼스트 프레임워크로 시작하는 프로젝트
 
 프로젝트 시작을 위해 필요한 환경
 
-- [ ] Git v2.3+ [🔗](https://git-scm.com)
-- [ ] Node.js v16+ [🔗](https://nodejs.dev)
-- [ ] Visual Studio Code v1.7+ [🔗](https://code.visualstudio.com/)
+- [x] Git v2.3+ [🔗](https://git-scm.com)
+- [x] Node.js v16+ [🔗](https://nodejs.dev)
+- [x] Visual Studio Code v1.7+ [🔗](https://code.visualstudio.com/)
 
 ## Development
 
