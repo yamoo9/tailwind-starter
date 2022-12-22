@@ -5,7 +5,9 @@
     "stylelint-config-prettier"
   ],
   "rules": {
-    "import-notation": null
+    "import-notation": null,
+    "selector-class-pattern": null,
+    "selector-pseudo-class-no-unknown": null
   },
   "ignoreFiles": "./styles/**/*.css"
 }

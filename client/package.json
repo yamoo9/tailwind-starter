@@ -11,13 +11,14 @@
   "config": {
     "server": {
       "host": "localhost",
-      "port": 3000
+      "port": 3000,
+      "basedir": "./public"
     },
     "tw": {
-      "input": "./@tailwind/main.css",
+      "input": "./src/main.css",
       "output": {
-        "dev": "./styles/main.css",
-        "prod": "./styles/main.min.css"
+        "dev": "./public/styles/main.css",
+        "prod": "./public/styles/main.min.css"
       }
     }
   },
@@ -26,7 +27,7 @@
     "dev": "run-p watch:* serve:dev",
     "lint": "run-p lint:*",
     "build": "run-p build:*",
-    "serve": "cross-var live-server ./ --host=$npm_package_config_server_host --port=$npm_package_config_server_port",
+    "serve": "cross-var live-server $npm_package_config_server_basedir --host=$npm_package_config_server_host --port=$npm_package_config_server_port",
     "serve:dev": "npm run serve -- --no-browser",
     "compile:tw": "cross-var tailwind -i $npm_package_config_tw_input -o $npm_package_config_tw_output_dev --postcss",
     "watch:tw": "npm run compile:tw -- --watch",
