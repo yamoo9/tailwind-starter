@@ -10,9 +10,11 @@
   },
   "scripts": {
     "start": "npm run dev -- --open",
-    "dev": "live-server ./ --host=localhost --port=3000"
+    "dev": "live-server ./ --host=localhost --port=3000",
+    "lint:html": "htmlhint ./**/*.html"
   },
   "devDependencies": {
+    "htmlhint": "1.1.4",
     "live-server": "1.2.2"
   },
   "engines": {
