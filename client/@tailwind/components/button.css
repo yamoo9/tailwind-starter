@@ -1,0 +1,8 @@
+@layer components {
+  .button {
+    &::deisabled,
+    &--disabled {
+      @apply cursor-not-allowed;
+    }
+  }
+}

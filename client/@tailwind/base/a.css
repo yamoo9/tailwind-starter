@@ -1,0 +1,9 @@
+@layer base {
+  a:where([href])  {
+    @media print {
+      &::after {
+        content: ' (' attr(href) ')';
+      }
+    }
+  }
+}

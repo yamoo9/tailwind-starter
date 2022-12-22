@@ -60,7 +60,7 @@
 
   "css.completion.completePropertyWithSemicolon": true,
   "css.lint.unknownAtRules": "ignore",
-  "css.validate": true,
+  "css.validate": false,
 
   "editor.inlayHints.enabled": "offUnlessPressed",
 

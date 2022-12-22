@@ -8,14 +8,39 @@
     "email": "yamoo9@naver.com",
     "url": "https://euid.dev"
   },
+  "config": {
+    "server": {
+      "host": "localhost",
+      "port": 3000
+    },
+    "tw": {
+      "input": "./@tailwind/main.css",
+      "output": {
+        "dev": "./styles/main.css",
+        "prod": "./styles/main.min.css"
+      }
+    }
+  },
   "scripts": {
-    "start": "npm run dev -- --open",
-    "dev": "live-server ./ --host=localhost --port=3000",
-    "lint:html": "htmlhint ./**/*.html"
+    "start": "run-p watch:* serve",
+    "dev": "run-p watch:* serve:dev",
+    "build": "run-p build:*",
+    "serve:dev": "npm run serve -- --no-browser",
+    "serve": "cross-var live-server ./ --host=$npm_package_config_server_host --port=$npm_package_config_server_port",
+    "lint:html": "htmlhint ./**/*.html",
+    "watch:tw": "npm run compile:tw -- --watch",
+    "compile:tw": "cross-var tailwind -i $npm_package_config_tw_input -o $npm_package_config_tw_output_dev --postcss",
+    "build:tw": "cross-var tailwind -i $npm_package_config_tw_input -o $npm_package_config_tw_output_prod --minify"
   },
   "devDependencies": {
+    "cross-var": "1.1.0",
     "htmlhint": "1.1.4",
-    "live-server": "1.2.2"
+    "live-server": "1.2.2",
+    "npm-run-all": "4.1.5",
+    "postcss": "8.4.20",
+    "postcss-import": "15.1.0",
+    "postcss-preset-env": "7.8.3",
+    "tailwindcss": "3.2.4"
   },
   "engines": {
     "node": "^16.0.0",

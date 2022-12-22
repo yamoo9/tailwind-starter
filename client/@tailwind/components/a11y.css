@@ -1,0 +1,18 @@
+@layer components {
+  .srOnly,
+  .a11yHidden {
+    @apply absolute overflow-hidden w-[1px] h-[1px] m-[-1px] whitespace-nowrap;
+    clip: rect(0,0,0,0);
+    clip-path: circle(0%);
+    border: 0;
+    padding: 0;
+    
+    &.focusable:focus {
+      @apply static overflow-auto w-auto h-auto m-auto whitespace-normal;
+      clip: initial;
+      clip-path: unset;
+      border: initial;
+      padding: initial;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+@layer base {
+  abbr:where([title])  {
+    @apply cursor-help no-underline;
+
+    @media print {
+      &::after {
+        content: ' (' attr(title) ')';
+      }
+    }
+  }
+}
