@@ -17,9 +17,9 @@ Tailwind CSS 유틸리티 퍼스트 프레임워크로 시작하는 프로젝트
 - [x] Live Server [🔗](https://www.npmjs.com/package/live-server)
 - [x] HTMLHint [🔗](https://www.npmjs.com/package/htmlhint)
 - [x] Tailwind CSS [🔗](https://www.npmjs.com/package/tailwindcss)
-- [x] Post CSS [🔗](https://www.npmjs.com/package/postcss)
-- [x] Post CSS Preset Env [🔗](https://www.npmjs.com/package/postcss-preset-env)
-- [ ] Stylelint [🔗](https://www.npmjs.com/package/stylelint)
+- [x] PostCSS [🔗](https://www.npmjs.com/package/postcss)
+- [x] PostCSS Preset Env [🔗](https://www.npmjs.com/package/postcss-preset-env)
+- [x] Stylelint [🔗](https://www.npmjs.com/package/stylelint)
 - [ ] Prettier [🔗](https://www.npmjs.com/package/prettier)
 - [ ] ESLint [🔗](https://www.npmjs.com/package/eslint)
 

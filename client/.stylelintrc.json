@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-tailwindcss",
+    "stylelint-config-prettier"
+  ],
+  "rules": {
+    "import-notation": null
+  },
+  "ignoreFiles": "./styles/**/*.css"
+}

@@ -1,5 +1,5 @@
 @layer base {
-  abbr:where([title])  {
+  abbr:where([title]) {
     @apply cursor-help no-underline;
 
     @media print {

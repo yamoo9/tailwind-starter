@@ -89,5 +89,9 @@
   "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
   "typescript.inlayHints.variableTypes.enabled": true,
   "typescript.suggest.autoImports": true,
-  "typescript.suggest.paths": true
+  "typescript.suggest.paths": true,
+
+  "stylelint.enable": true,
+  "stylelint.validate": ["css"],
+  
 }

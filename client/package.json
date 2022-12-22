@@ -24,13 +24,15 @@
   "scripts": {
     "start": "run-p watch:* serve",
     "dev": "run-p watch:* serve:dev",
+    "lint": "run-p lint:*",
     "build": "run-p build:*",
-    "serve:dev": "npm run serve -- --no-browser",
     "serve": "cross-var live-server ./ --host=$npm_package_config_server_host --port=$npm_package_config_server_port",
-    "lint:html": "htmlhint ./**/*.html",
-    "watch:tw": "npm run compile:tw -- --watch",
+    "serve:dev": "npm run serve -- --no-browser",
     "compile:tw": "cross-var tailwind -i $npm_package_config_tw_input -o $npm_package_config_tw_output_dev --postcss",
-    "build:tw": "cross-var tailwind -i $npm_package_config_tw_input -o $npm_package_config_tw_output_prod --minify"
+    "watch:tw": "npm run compile:tw -- --watch",
+    "build:tw": "cross-var tailwind -i $npm_package_config_tw_input -o $npm_package_config_tw_output_prod --minify",
+    "lint:html": "htmlhint ./**/*.html",
+    "lint:css": "stylelint ./**/*.css"
   },
   "devDependencies": {
     "cross-var": "1.1.0",
@@ -40,6 +42,10 @@
     "postcss": "8.4.20",
     "postcss-import": "15.1.0",
     "postcss-preset-env": "7.8.3",
+    "stylelint": "14.16.0",
+    "stylelint-config-prettier": "9.0.4",
+    "stylelint-config-standard": "29.0.0",
+    "stylelint-config-tailwindcss": "0.0.7",
     "tailwindcss": "3.2.4"
   },
   "engines": {
