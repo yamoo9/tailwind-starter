@@ -2,6 +2,18 @@
 
 Tailwind CSS 유틸리티 퍼스트 프레임워크로 시작하는 프로젝트 스타터
 
+## Getting Started
+
+프로젝트 스캐폴딩을 위해 [degit](https://github.com/Rich-Harris/degit) 명령을 사용합니다.
+
+```sh
+# degit을 전역 설치한 적이 없을 경우 실행합니다.
+npm i -g degit
+
+# degit 명령을 사용해 로컬 컴퓨터 환경에 복사합니다.
+degit yamoo9/tw-starter <로컬_디렉토리_이름>
+```
+
 ## Requirement
 
 프로젝트 시작을 위해 필요한 환경
