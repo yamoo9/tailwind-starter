@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "tw-starter",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Tailwind CSS 유틸리티 퍼스트 프레임워크로 시작하는 프로젝트 스타터",
   "author": {
     "name": "야무(yamoo9)",
