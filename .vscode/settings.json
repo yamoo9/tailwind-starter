@@ -16,7 +16,7 @@
     }
   },
   "files.associations": {
-    "*.js": "javascriptreact",
+    "*.jsx": "javascriptreact",
     ".browserslistrc": "bat",
     ".prettierrc": "json",
     ".npmrc": "bat"
