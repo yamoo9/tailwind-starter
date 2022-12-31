@@ -11,7 +11,7 @@ Tailwind CSS 유틸리티 퍼스트 프레임워크로 시작하는 프로젝트
 npm i -g degit
 
 # degit 명령을 사용해 로컬 컴퓨터 환경에 복사합니다.
-degit yamoo9/tw-starter <로컬_디렉토리_이름>
+degit yamoo9/tailwind-starter <로컬_디렉토리_이름>
 ```
 
 ## Requirement
